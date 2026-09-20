@@ -1,0 +1,283 @@
+{
+  "nav": {
+    "label": "मुख्य नेविगेशन",
+    "howItWorks": "यह कैसे काम करता है",
+    "terms": "शर्तें",
+    "privacy": "गोपनीयता"
+  },
+  "language": {
+    "label": "भाषा"
+  },
+  "home": {
+    "label": "योजना खोज",
+    "heading": "सरकारी योजनाएं, छात्रवृत्तियां और नौकरियां खोजें जिनके लिए आप आवेदन कर सकते हैं।",
+    "subheading": "कुछ सवालों के जवाब दें या बोलकर बताएं। 7 भाषाओं में उपलब्ध।",
+    "noteTitle": "आपके परिणाम आपके दिए गए विवरण पर आधारित हैं।",
+    "noteBody": "पात्रता प्रकाशित नियमों से जांची जाती है। आवेदन से पहले आधिकारिक पोर्टल पर वर्तमान नियम देखें।"
+  },
+  "form": {
+    "step": "अपने बारे में बताएं",
+    "title": "आपकी प्रोफ़ाइल",
+    "intro": "Fill in what you know. You can leave optional fields blank and correct anything that voice input fills.",
+    "age": "उम्र",
+    "gender": "लिंग",
+    "state": "राज्य या केंद्र शासित प्रदेश",
+    "area": "क्षेत्र",
+    "income": "वार्षिक पारिवारिक आय",
+    "incomeHint": "Enter the full amount in rupees.",
+    "category": "सामाजिक श्रेणी",
+    "education": "उच्चतम शिक्षा",
+    "occupation": "व्यवसाय",
+    "goal": "आप क्या खोज रहे हैं?",
+    "goalHint": "Optional. Example: scholarship for college, farm support, internship.",
+    "select": "चुनें",
+    "rural": "ग्रामीण",
+    "urban": "शहरी",
+    "optional": "Optional fields can be left blank.",
+    "search": "मिलान खोजें",
+    "errors": {
+      "age": "Enter an age from 1 to 120.",
+      "income": "Income cannot be negative."
+    },
+    "options": {
+      "gender": {
+        "female": "महिला",
+        "male": "पुरुष",
+        "transgender": "ट्रांसजेंडर"
+      },
+      "category": {
+        "general": "सामान्य",
+        "sc": "अनुसूचित जाति (SC)",
+        "st": "अनुसूचित जनजाति (ST)",
+        "obc": "अन्य पिछड़ा वर्ग (OBC)",
+        "ews": "आर्थिक रूप से कमजोर वर्ग (EWS)"
+      },
+      "education": {
+        "none": "कोई औपचारिक शिक्षा नहीं",
+        "below_10th": "10वीं से कम",
+        "10th": "10वीं पास",
+        "12th": "12वीं पास",
+        "diploma": "डिप्लोमा / ITI",
+        "graduate": "स्नातक",
+        "postgraduate": "स्नातकोत्तर"
+      },
+      "occupation": {
+        "student": "छात्र / छात्रा",
+        "farmer": "किसान",
+        "agricultural_labour": "कृषि मजदूर",
+        "daily_wage": "दैनिक मजदूर",
+        "self_employed": "स्वरोजगार / छोटी दुकान",
+        "salaried": "वेतनभोगी / निजी नौकरी",
+        "govt_employee": "सरकारी कर्मचारी",
+        "unemployed": "बेरोजगार",
+        "homemaker": "गृहिणी / गृहस्थ"
+      },
+      "area": {
+        "rural": "ग्रामीण",
+        "urban": "शहरी"
+      }
+    },
+    "languageNote": "फ़ील्ड और मार्गदर्शन आपकी चुनी हुई भाषा में दिखाए जाते हैं।",
+    "basicDetails": "व्यक्तिगत जानकारी",
+    "locationDetails": "स्थान",
+    "backgroundDetails": "पृष्ठभूमि",
+    "goalSection": "आपका लक्ष्य"
+  },
+  "voice": {
+    "listening": "Listening. Speak naturally.",
+    "parsed": "Your details were parsed. Please review the fields.",
+    "error": "Voice parsing failed. You can type your details instead.",
+    "unsupported": "Voice input needs browser SpeechRecognition support. Chrome is recommended.",
+    "speak": "Speak your details",
+    "stop": "Stop listening"
+  },
+  "types": {
+    "scholarship": "छात्रवृत्तियां",
+    "internship": "इंटर्नशिप",
+    "job": "सरकारी नौकरियां",
+    "welfare": "योजनाएं"
+  },
+  "results": {
+    "label": "Your matches",
+    "heading": "Results based on your profile",
+    "total": "{{count}} matches found",
+    "edit": "Edit profile",
+    "tabsLabel": "Result types",
+    "areaLabel": "Area filter",
+    "allAreas": "Rural + Urban",
+    "officialCheck": "Check the official portal before applying. Eligibility rules can change.",
+    "rankedNote": "Eligible results are shown first by rules. When the trained text model is available and you added a goal, it reorders eligible results by text similarity."
+  },
+  "empty": {
+    "title": "No {{type}} matched",
+    "body": "Try changing category, state, area, education or occupation. Optional fields can be left blank to broaden the search.",
+    "change": "Change my details",
+    "noProfile": "No profile to search",
+    "noProfileBody": "Start on the home page and enter a few details first.",
+    "start": "Start search"
+  },
+  "card": {
+    "why": "आप क्यों मिले",
+    "benefits": "लाभ",
+    "documents": "दस्तावेज",
+    "deadline": "अंतिम तिथि",
+    "deadlineUnknown": "Deadline not listed",
+    "verified": "अंतिम सत्यापन",
+    "apply": "आधिकारिक साइट पर आवेदन",
+    "readAloud": "जोर से पढ़ें",
+    "allIndia": "पूरे भारत में"
+  },
+  "state": {
+    "loading": "Loading results...",
+    "wakingTitle": "Waking up the server",
+    "wakingBody": "The backend may be starting after a period of inactivity. Please retry.",
+    "retry": "Retry"
+  },
+  "how": {
+    "label": "How it works",
+    "heading": "Three layers, with eligibility rules in control.",
+    "intro": "YojanaSathi separates eligibility decisions from language and ranking so that a language model does not decide who qualifies.",
+    "ruleTitle": "Rules decide eligibility",
+    "ruleBody": "The backend builds a MongoDB query from your profile. Each returned item matches the stored age, income, gender, category, education, occupation, state and area rules. A null limit means no limit.",
+    "mlTitle": "The trained model helps rank",
+    "mlBody": "A small TF-IDF model learns text patterns from the local training corpus. It can reorder schemes that already passed the rules when your goal text is present.",
+    "llmTitle": "Language tools handle language",
+    "llmBody": "The LLM, when configured, extracts a structured profile from speech transcripts or typed sentences and can pre-translate cached scheme text. It never decides eligibility. A keyword parser is used when the key is missing or the LLM fails.",
+    "modelInfo": "Model information",
+    "trainSize": "Training rows",
+    "accuracy": "Held-out accuracy",
+    "classes": "Classes",
+    "notReported": "Not reported"
+  },
+  "details": {
+    "back": "Back to results",
+    "level": "Level",
+    "state": "State",
+    "area": "Area",
+    "verified": "Last verified",
+    "deadline": "Deadline",
+    "documents": "Documents"
+  },
+  "notFound": {
+    "title": "Page not found",
+    "body": "The page you opened does not exist. Use the home page to start a scheme search.",
+    "home": "Go to home"
+  },
+  "legal": {
+    "termsLabel": "Legal",
+    "termsTitle": "Terms and Conditions",
+    "privacyLabel": "Privacy",
+    "privacyTitle": "Privacy",
+    "lastUpdated": "Last updated",
+    "updatedDate": "20 September 2026",
+    "notOfficialTitle": "Not an official government website",
+    "notOfficialBody": "YojanaSathi is an independent informational service. It is not affiliated with, operated by, or endorsed by any Government of India department, state government, ministry or public authority.",
+    "eligibilityTitle": "Eligibility information is indicative",
+    "eligibilityBody": "The app matches profiles against the scheme data available in its database. A match does not mean approval or a guarantee of eligibility. Rules, dates, documents and application procedures can change. Check the official portal before applying.",
+    "voiceTitle": "Voice input",
+    "voiceBody": "When you use voice input, speech is processed by your browser's SpeechRecognition service. The resulting transcript is sent to our server for profile parsing. The transcript is not stored as an identified record by this application.",
+    "dataTitle": "What this service stores",
+    "dataBody": "Search analytics may store structured, anonymous fields such as age, state, area, income, category, education, occupation, language and result count. The backend does not store your full goal text in these analytics records and does not intentionally store direct identifiers.",
+    "linksTitle": "Third-party links",
+    "linksBody": "Application buttons send you to external official portals. Those sites have their own terms, privacy policies and security practices. Review the destination before providing personal information.",
+    "liabilityTitle": "Limitation of liability",
+    "liabilityBody": "This service is provided for information and discovery. We do not guarantee that information is complete, current or error-free, and we are not responsible for decisions or losses arising from use of the service or external websites.",
+    "changesTitle": "Changes to these terms",
+    "changesBody": "These terms may be updated as the product or legal requirements change. The last updated date shown on this page identifies the current version.",
+    "contactTitle": "Contact",
+    "contactBody": "For questions about this service, contact {{email}}."
+  },
+  "privacy": {
+    "title": "गोपनीयता",
+    "updated": "अंतिम अपडेट: 20 सितंबर 2026",
+    "intro": "हम YojanaSathi को इस तरह डिजाइन करते हैं कि योजना खोजने के लिए आवश्यक जानकारी कम से कम रखी जाए।",
+    "collect": "हम उम्र, लिंग, राज्य, ग्रामीण या शहरी क्षेत्र, वार्षिक पारिवारिक आय, श्रेणी, शिक्षा, व्यवसाय और वैकल्पिक लक्ष्य जैसे प्रोफ़ाइल फ़ील्ड प्रोसेस कर सकते हैं।",
+    "voice": "जब आप वॉइस इनपुट इस्तेमाल करते हैं, ब्राउज़र स्पीच सेवा आवाज को टेक्स्ट में बदलती है। प्रोफ़ाइल पार्सिंग के लिए ट्रांसक्रिप्ट सर्वर पर भेजा जाता है और पहचान संबंधी विवरण के साथ स्टोर नहीं किया जाता।",
+    "storage": "सर्च एनालिटिक्स के लिए गैर-पहचान योग्य संरचित फ़ील्ड और परिणाम संख्या स्टोर की जा सकती है। पहचानकर्ता, पासवर्ड या वॉइस रिकॉर्डिंग स्टोर नहीं की जाती।",
+    "cookies": "भाषा चयन जैसे आवश्यक स्थानीय सेटिंग्स आपके ब्राउज़र में रखी जा सकती हैं। हम विज्ञापन प्रोफ़ाइल बनाने के लिए इनका उपयोग नहीं करते।",
+    "links": "बाहरी आवेदन वेबसाइटों पर जाने के बाद उन साइटों की अपनी गोपनीयता नीतियां लागू होती हैं।",
+    "contact": "गोपनीयता संबंधी प्रश्न: {{email}}"
+  },
+  "seo": {
+    "homeTitle": "YojanaSathi | Government scheme finder",
+    "homeDescription": "Find government schemes, scholarships, internships and jobs in India.",
+    "resultsTitle": "YojanaSathi | Your matches",
+    "resultsDescription": "See government schemes, scholarships, internships and jobs matched to your profile.",
+    "howTitle": "YojanaSathi | How it works",
+    "howDescription": "Understand the rules engine, ranking model and language processing behind YojanaSathi.",
+    "termsTitle": "YojanaSathi | Terms and Conditions",
+    "termsDescription": "Terms for using the YojanaSathi informational scheme finder.",
+    "privacyTitle": "YojanaSathi | Privacy",
+    "privacyDescription": "How YojanaSathi handles profile, voice transcript and anonymous analytics data.",
+    "schemeTitle": "YojanaSathi | Scheme details",
+    "schemeDescription": "Details, documents and official application link for a government benefit.",
+    "notFoundTitle": "YojanaSathi | Page not found",
+    "notFoundDescription": "The requested YojanaSathi page was not found.",
+    "loginTitle": "YojanaSathi | लॉग इन",
+    "loginDescription": "YojanaSathi में लॉग इन करें और अपनी सेव की गई योजना-मैचिंग प्रोफ़ाइल का उपयोग करें।",
+    "signupTitle": "YojanaSathi | खाता बनाएं",
+    "signupDescription": "YojanaSathi खाता बनाएं और अपनी योजना-मैचिंग प्रोफ़ाइल सेव करें।"
+  },
+  "footer": {
+    "disclaimer": "सूचनात्मक सेवा। आवेदन से पहले आधिकारिक पोर्टल पर पात्रता सत्यापित करें।"
+  },
+  "terms": {
+    "title": "नियम और शर्तें",
+    "updated": "अंतिम अपडेट: 20 सितंबर 2026",
+    "intro": "YojanaSathi एक सूचना सेवा है। यह भारत सरकार या किसी सरकारी निकाय की आधिकारिक वेबसाइट नहीं है और किसी सरकारी निकाय से संबद्ध नहीं है।",
+    "verification": "दिखाए गए परिणाम संकेतात्मक हैं। आवेदन करने से पहले संबंधित योजना या अवसर के आधिकारिक पोर्टल पर पात्रता, तिथियां और दस्तावेज जांचें।",
+    "approval": "किसी आवेदन की स्वीकृति या लाभ मिलने की कोई गारंटी नहीं दी जाती।",
+    "voice": "वॉइस इनपुट आपके ब्राउज़र की SpeechRecognition सेवा द्वारा प्रोसेस किया जाता है। ट्रांसक्रिप्ट प्रोफ़ाइल पार्सिंग के लिए हमारे सर्वर पर भेजा जाता है। हम इसे पहचान संबंधी विवरण के साथ स्टोर नहीं करते।",
+    "data": "सर्च के दौरान केवल गैर-पहचान योग्य, संरचित प्रोफ़ाइल फ़ील्ड और परिणाम संख्या जैसे सीमित विश्लेषण डेटा स्टोर किया जा सकता है। वॉइस ट्रांसक्रिप्ट और व्यक्तिगत पहचानकर्ता स्टोर नहीं किए जाते।",
+    "third_party": "आवेदन लिंक तीसरे पक्ष या सरकारी पोर्टलों तक ले जा सकते हैं। उन वेबसाइटों की अपनी शर्तें और गोपनीयता नीतियां लागू होती हैं।",
+    "liability": "YojanaSathi उपलब्ध जानकारी में त्रुटियों, बदलावों या बाहरी वेबसाइटों पर होने वाली घटनाओं के लिए जिम्मेदार नहीं है।",
+    "changes": "सेवा या इन शर्तों में बदलाव होने पर इस पृष्ठ पर नई अंतिम अपडेट तिथि दिखाई जाएगी।",
+    "contact": "संपर्क: {{email}}"
+  },
+  "auth": {
+    "memberAccess": "सदस्य प्रवेश",
+    "login": "लॉग इन",
+    "signup": "खाता बनाएं",
+    "signIn": "साइन इन",
+    "welcomeBack": "वापसी पर स्वागत है",
+    "loginTitle": "अपनी प्रोफ़ाइल सुरक्षित रखें।",
+    "loginIntro": "अपनी जानकारी एक बार सेव करें और हर बार वही फॉर्म भरने की जरूरत के बिना योजनाएं खोजें। अतिथि के रूप में भी खोज सकते हैं।",
+    "loginPromise": "आपकी प्रोफ़ाइल का उपयोग केवल योजना मिलान को व्यक्तिगत बनाने के लिए होता है। पासवर्ड सुरक्षित हैश के रूप में रखा जाता है।",
+    "signupTitle": "YojanaSathi खाता बनाएं।",
+    "signupIntro": "एक सरल खाता बनाएं, अपनी पात्रता प्रोफ़ाइल सेव करें और बाद में वहीं से शुरू करें।",
+    "signupPromise": "खाता बनाने के बाद उम्र, स्थान, शिक्षा और अन्य मिलान जानकारी सेव कर सकते हैं।",
+    "startHere": "यहां से शुरू करें",
+    "name": "नाम",
+    "email": "ईमेल पता",
+    "password": "पासवर्ड",
+    "confirmPassword": "पासवर्ड की पुष्टि",
+    "passwordHint": "कम से कम 8 अक्षर इस्तेमाल करें।",
+    "passwordMismatch": "दोनों पासवर्ड मेल नहीं खाते।",
+    "showPassword": "पासवर्ड दिखाएं",
+    "hidePassword": "पासवर्ड छिपाएं",
+    "signingIn": "साइन इन हो रहा है...",
+    "creatingAccount": "खाता बनाया जा रहा है...",
+    "continueGuest": "अतिथि के रूप में जारी रखें",
+    "or": "या",
+    "noAccount": "YojanaSathi पर नए हैं?",
+    "haveAccount": "पहले से खाता है?",
+    "createAccount": "खाता बनाएं",
+    "account": "मेरी प्रोफ़ाइल",
+    "logout": "लॉग आउट",
+    "savedDetails": "सेव की गई प्रोफ़ाइल",
+    "editProfile": "अपनी प्रोफ़ाइल संपादित करें",
+    "profileIntro": "इन विवरणों को एक बार अपडेट करें। अगली बार साइन इन करने पर ये तैयार रहेंगे।",
+    "profileEditIntro": "प्रोफ़ाइल सेव करने पर बदलाव आपके खाते में सेव हो जाएंगे।",
+    "yourSavedProfile": "आपकी सेव की गई प्रोफ़ाइल",
+    "profileSaved": "प्रोफ़ाइल सेव हो गई।",
+    "savedAutomatically": "साइन इन होने पर प्रोफ़ाइल आपके खाते में सेव होती है।",
+    "saveProfile": "प्रोफ़ाइल सेव करें",
+    "saveProfileError": "प्रोफ़ाइल सेव नहीं हो सकी। फिर से प्रयास करें।",
+    "loadingAccount": "आपका खाता लोड हो रहा है...",
+    "loginRequired": "सेव की गई प्रोफ़ाइल देखने के लिए साइन इन करें",
+    "loginRequiredBody": "साइन इन करने के बाद आपकी सेव की गई पात्रता प्रोफ़ाइल उपलब्ध होगी।",
+    "genericError": "कुछ गलत हुआ। फिर से प्रयास करें।",
+    "openMenu": "मेनू खोलें",
+    "closeMenu": "मेनू बंद करें"
+  }
+}
