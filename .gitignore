@@ -1,0 +1,17 @@
+.env
+.env.*
+!.env.example
+__pycache__/
+*.py[cod]
+backend/.venv/
+.pytest_cache/
+node_modules/
+frontend/dist/
+data/kaggle/
+data/processed/
+*.pkl
+*.onnx
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
