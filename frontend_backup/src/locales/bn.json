@@ -1,0 +1,182 @@
+{
+  "nav": {
+    "label": "প্রধান নেভিগেশন",
+    "howItWorks": "কীভাবে কাজ করে",
+    "terms": "শর্তাবলি",
+    "privacy": "গোপনীয়তা"
+  },
+  "language": {
+    "label": "ভাষা"
+  },
+  "home": {
+    "label": "স্কিম খোঁজ",
+    "heading": "আপনি যে সরকারি স্কিম, বৃত্তি এবং চাকরিতে আবেদন করতে পারেন সেগুলি খুঁজুন।",
+    "subheading": "কয়েকটি প্রশ্নের উত্তর দিন বা বলে জানান। ৭টি ভাষায় উপলব্ধ।",
+    "noteTitle": "আপনার ফলাফল আপনার দেওয়া তথ্যের উপর ভিত্তি করে।",
+    "noteBody": "প্রকাশিত নিয়ম দিয়ে যোগ্যতা যাচাই করা হয়। আবেদন করার আগে সরকারি পোর্টাল দেখুন।"
+  },
+  "form": {
+    "step": "আপনার সম্পর্কে বলুন",
+    "title": "আপনার প্রোফাইল",
+    "intro": "Fill in what you know. You can leave optional fields blank and correct anything that voice input fills.",
+    "age": "বয়স",
+    "gender": "লিঙ্গ",
+    "state": "রাজ্য বা কেন্দ্রশাসিত অঞ্চল",
+    "area": "এলাকা",
+    "income": "বার্ষিক পারিবারিক আয়",
+    "incomeHint": "Enter the full amount in rupees.",
+    "category": "সামাজিক শ্রেণি",
+    "education": "সর্বোচ্চ শিক্ষা",
+    "occupation": "পেশা",
+    "goal": "আপনি কী খুঁজছেন?",
+    "goalHint": "Optional. Example: scholarship for college, farm support, internship.",
+    "select": "নির্বাচন করুন",
+    "rural": "গ্রামীণ",
+    "urban": "শহুরে",
+    "optional": "Optional fields can be left blank.",
+    "search": "মিল খুঁজুন",
+    "errors": {
+      "age": "Enter an age from 1 to 120.",
+      "income": "Income cannot be negative."
+    }
+  },
+  "voice": {
+    "listening": "Listening. Speak naturally.",
+    "parsed": "Your details were parsed. Please review the fields.",
+    "error": "Voice parsing failed. You can type your details instead.",
+    "unsupported": "Voice input needs browser SpeechRecognition support. Chrome is recommended.",
+    "speak": "Speak your details",
+    "stop": "Stop listening"
+  },
+  "types": {
+    "scholarship": "বৃত্তি",
+    "internship": "ইন্টার্নশিপ",
+    "job": "সরকারি চাকরি",
+    "welfare": "স্কিম"
+  },
+  "results": {
+    "label": "Your matches",
+    "heading": "Results based on your profile",
+    "total": "{{count}} matches found",
+    "edit": "Edit profile",
+    "tabsLabel": "Result types",
+    "areaLabel": "Area filter",
+    "allAreas": "Rural + Urban",
+    "officialCheck": "Check the official portal before applying. Eligibility rules can change.",
+    "rankedNote": "Eligible results are shown first by rules. When the trained text model is available and you added a goal, it reorders eligible results by text similarity."
+  },
+  "empty": {
+    "title": "No {{type}} matched",
+    "body": "Try changing category, state, area, education or occupation. Optional fields can be left blank to broaden the search.",
+    "change": "Change my details",
+    "noProfile": "No profile to search",
+    "noProfileBody": "Start on the home page and enter a few details first.",
+    "start": "Start search"
+  },
+  "card": {
+    "why": "আপনি কেন মিলেছেন",
+    "benefits": "সুবিধা",
+    "documents": "নথি",
+    "deadline": "শেষ তারিখ",
+    "deadlineUnknown": "Deadline not listed",
+    "verified": "শেষ যাচাই",
+    "apply": "সরকারি সাইটে আবেদন",
+    "readAloud": "জোরে পড়ুন",
+    "allIndia": "সারা ভারত"
+  },
+  "state": {
+    "loading": "Loading results...",
+    "wakingTitle": "Waking up the server",
+    "wakingBody": "The backend may be starting after a period of inactivity. Please retry.",
+    "retry": "Retry"
+  },
+  "how": {
+    "label": "How it works",
+    "heading": "Three layers, with eligibility rules in control.",
+    "intro": "YojanaSathi separates eligibility decisions from language and ranking so that a language model does not decide who qualifies.",
+    "ruleTitle": "Rules decide eligibility",
+    "ruleBody": "The backend builds a MongoDB query from your profile. Each returned item matches the stored age, income, gender, category, education, occupation, state and area rules. A null limit means no limit.",
+    "mlTitle": "The trained model helps rank",
+    "mlBody": "A small TF-IDF model learns text patterns from the local training corpus. It can reorder schemes that already passed the rules when your goal text is present.",
+    "llmTitle": "Language tools handle language",
+    "llmBody": "The LLM, when configured, extracts a structured profile from speech transcripts or typed sentences and can pre-translate cached scheme text. It never decides eligibility. A keyword parser is used when the key is missing or the LLM fails.",
+    "modelInfo": "Model information",
+    "trainSize": "Training rows",
+    "accuracy": "Held-out accuracy",
+    "classes": "Classes",
+    "notReported": "Not reported"
+  },
+  "details": {
+    "back": "Back to results",
+    "level": "Level",
+    "state": "State",
+    "area": "Area",
+    "verified": "Last verified",
+    "deadline": "Deadline",
+    "documents": "Documents"
+  },
+  "notFound": {
+    "title": "Page not found",
+    "body": "The page you opened does not exist. Use the home page to start a scheme search.",
+    "home": "Go to home"
+  },
+  "legal": {
+    "termsLabel": "আইনি",
+    "termsTitle": "শর্তাবলি",
+    "privacyLabel": "গোপনীয়তা",
+    "privacyTitle": "গোপনীয়তা",
+    "lastUpdated": "শেষ আপডেট",
+    "updatedDate": "২০ সেপ্টেম্বর ২০২৬",
+    "notOfficialTitle": "এটি সরকারি ওয়েবসাইট নয়",
+    "notOfficialBody": "YojanaSathi একটি স্বাধীন তথ্যসেবা। এটি ভারত সরকার, কোনো রাজ্য সরকার, মন্ত্রণালয় বা সরকারি কর্তৃপক্ষের সঙ্গে যুক্ত, পরিচালিত বা অনুমোদিত নয়।",
+    "eligibilityTitle": "যোগ্যতার তথ্য নির্দেশনামূলক",
+    "eligibilityBody": "অ্যাপ ডেটাবেসে থাকা স্কিম তথ্যের সঙ্গে প্রোফাইল মিলিয়ে দেখায়। একটি মিল অনুমোদন বা নিশ্চিত যোগ্যতা বোঝায় না। নিয়ম, তারিখ, নথি ও প্রক্রিয়া বদলাতে পারে। আবেদন করার আগে সরকারি পোর্টাল দেখুন।",
+    "voiceTitle": "ভয়েস ইনপুট",
+    "voiceBody": "ভয়েস ইনপুটে আপনার কথা ব্রাউজারের SpeechRecognition পরিষেবা প্রক্রিয়া করে। ট্রান্সক্রিপ্ট প্রোফাইল পার্সিংয়ের জন্য আমাদের সার্ভারে পাঠানো হয়। এই অ্যাপ এটিকে পরিচয়যুক্ত রেকর্ড হিসেবে সংরক্ষণ করে না।",
+    "dataTitle": "এই সেবা কী সংরক্ষণ করে",
+    "dataBody": "অনামা অনুসন্ধান বিশ্লেষণে বয়স, রাজ্য, এলাকা, আয়, শ্রেণি, শিক্ষা, পেশা, ভাষা এবং ফলাফলের সংখ্যা মতো কাঠামোবদ্ধ ক্ষেত্র রাখা হতে পারে। পুরো লক্ষ্য লেখা এই রেকর্ডে রাখা হয় না।",
+    "linksTitle": "তৃতীয় পক্ষের লিঙ্ক",
+    "linksBody": "আবেদন বোতাম আপনাকে বাহ্যিক সরকারি পোর্টালে পাঠায়। তাদের নিজস্ব শর্ত, গোপনীয়তা নীতি এবং নিরাপত্তা ব্যবস্থা রয়েছে। ব্যক্তিগত তথ্য দেওয়ার আগে গন্তব্য সাইট দেখুন।",
+    "liabilityTitle": "দায়বদ্ধতার সীমা",
+    "liabilityBody": "এই পরিষেবা তথ্য ও অনুসন্ধানের জন্য। আমরা তথ্য সম্পূর্ণ, বর্তমান বা ভুলমুক্ত হওয়ার নিশ্চয়তা দিই না এবং এই পরিষেবা বা বাহ্যিক সাইট ব্যবহারের সিদ্ধান্ত বা ক্ষতির জন্য দায়ী নই।",
+    "changesTitle": "শর্তাবলির পরিবর্তন",
+    "changesBody": "পণ্য বা আইনগত প্রয়োজন বদলালে শর্তাবলি আপডেট হতে পারে। শেষ আপডেটের তারিখ বর্তমান সংস্করণটি বোঝায়।",
+    "contactTitle": "যোগাযোগ",
+    "contactBody": "প্রশ্ন থাকলে {{email}} ঠিকানায় যোগাযোগ করুন।"
+  },
+  "privacy": {
+    "whatTitle": "What we collect",
+    "whatBody": "The profile fields you enter are sent to the backend so it can find matching schemes. Your selected language is also sent so the response can use cached translations. The service does not ask for Aadhaar, bank account, password or other application credentials.",
+    "notTitle": "What we do not use for identity",
+    "notBody": "The application does not intentionally attach your scheme search to a name, email address, phone number or government ID. Do not type sensitive identifiers into the free-text goal field.",
+    "analyticsTitle": "Anonymous analytics",
+    "analyticsBody": "To improve search coverage, the backend may store structured profile fields and result counts without the free-text goal. These records are used for aggregate product analysis and are not intended to identify you.",
+    "voiceTitle": "Voice data",
+    "voiceBody": "Voice audio is handled by the browser speech service. Our application receives the text transcript for parsing. We do not store the transcript as an identifying analytics field.",
+    "thirdPartyTitle": "External portals",
+    "thirdPartyBody": "When you open an official application link, the destination website controls the data it collects. Read the destination privacy notice before submitting personal information.",
+    "securityTitle": "Security and retention",
+    "securityBody": "The service uses HTTPS in production, restrictive CORS settings and input validation. Database retention can vary with deployment configuration. No system can guarantee absolute security.",
+    "contactTitle": "Questions",
+    "contactBody": "Privacy questions can be sent to {{email}}."
+  },
+  "seo": {
+    "homeTitle": "YojanaSathi | Government scheme finder",
+    "homeDescription": "Find government schemes, scholarships, internships and jobs in India.",
+    "resultsTitle": "YojanaSathi | Your matches",
+    "resultsDescription": "See government schemes, scholarships, internships and jobs matched to your profile.",
+    "howTitle": "YojanaSathi | How it works",
+    "howDescription": "Understand the rules engine, ranking model and language processing behind YojanaSathi.",
+    "termsTitle": "YojanaSathi | Terms and Conditions",
+    "termsDescription": "Terms for using the YojanaSathi informational scheme finder.",
+    "privacyTitle": "YojanaSathi | Privacy",
+    "privacyDescription": "How YojanaSathi handles profile, voice transcript and anonymous analytics data.",
+    "schemeTitle": "YojanaSathi | Scheme details",
+    "schemeDescription": "Details, documents and official application link for a government benefit.",
+    "notFoundTitle": "YojanaSathi | Page not found",
+    "notFoundDescription": "The requested YojanaSathi page was not found."
+  },
+  "footer": {
+    "disclaimer": "তথ্যভিত্তিক পরিষেবা। আবেদন করার আগে সরকারি পোর্টালে যোগ্যতা যাচাই করুন।"
+  }
+}
