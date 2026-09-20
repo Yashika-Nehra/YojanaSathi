@@ -1,0 +1,10 @@
+fastapi>=0.110
+uvicorn[standard]>=0.29
+pymongo[srv]>=4.6
+pydantic>=2.6
+requests>=2.31
+python-dotenv>=1.0
+scikit-learn>=1.4
+joblib>=1.3
+numpy>=1.26
+# scikit-learn is only used for loading the TF-IDF model at request time.
